@@ -1,0 +1,16 @@
+[[source]]
+url = "https://mirrors.cloud.tencent.com/pypi/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+ipykernel = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.3"
